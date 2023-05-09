@@ -13,7 +13,7 @@ package array
 */
 
 //异或a^a^b = b a^b^a=b 所以只需要对切片内的值循环进行异或就可以得到只出现一次的值了
-
+//位运算符
 func singleNumber(nums []int) int {
     var temp int
     for i:=0;i<len(nums);i++ {

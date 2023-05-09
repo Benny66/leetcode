@@ -21,6 +21,7 @@ package array
 */
 
 //解法，将数据变成折线图，只有是上升曲线的时，取它的最大差值
+//指针
 func maxProfit(prices []int) int {
     index, len := 0, len(prices)
     var money int = 0

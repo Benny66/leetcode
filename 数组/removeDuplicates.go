@@ -14,7 +14,7 @@ LC:删除排序数组中的重复项
 
 */
 
-
+//双指针
 func removeDuplicates(nums []int) int {
     if len(nums) == 0 {
         return 0
